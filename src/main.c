@@ -34,7 +34,7 @@ void handle_init(AppContextRef app_ctx) {
 	
 	text_layer_init(&hello_layer, GRect(0, 65, 144, 30));
 	text_layer_set_text_alignment(&hello_layer, GTextAlignmentCenter);
-	text_layer_set_font(&hello_layer, fonts_get_system_font(FONT_KEY_ROBOTO_CONDENSED_21));
+	text_layer_set_font(&hello_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
 	layer_add_child(&window.layer, &hello_layer.layer);
   
 	update_time();
